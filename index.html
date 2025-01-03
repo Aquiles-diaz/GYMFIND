@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Inicio - Gimnasios Cerca de Ti</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Vincula tu archivo CSS aquí -->
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <h3>GYMFIND</h3>
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Sección Principal (Main) -->
+    <main>
+      <section id="home">
+        <h1>Encuentra Gimnasios Cerca de Ti</h1>
+        <p>
+          Explora los gimnasios más cercanos para alcanzar tus objetivos de
+          salud y bienestar.
+        </p>
+        <!-- Google Maps -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed/v1/search?q=gimnasios+cerca+de+m%C3%AD&key=TU_CLAVE_API"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Introducción y Tips -->
+      <section id="tips">
+        <h2>Cómo Usar <strong>GYMFIND</strong></h2>
+        <p>
+          GYMFIND es tu compañero ideal para encontrar gimnasios cercanos, con
+          una variedad de opciones según tus necesidades.
+        </p>
+        <ul>
+          <li>
+            <strong>Busca gimnasios cercanos:</strong> Utiliza nuestro mapa
+            interactivo para encontrar los mejores gimnasios en tu área.
+            <button class="action-btn">Ver más</button>
+          </li>
+          <li>
+            <strong>Compara precios y servicios:</strong> Consulta los
+            diferentes precios y servicios disponibles, incluyendo clases
+            grupales, entrenamiento personalizado y más.
+            <button class="action-btn">Ver más</button>
+          </li>
+          <li>
+            <strong>Lee opiniones:</strong> Verifica las reseñas y valoraciones
+            de otros usuarios para elegir el gimnasio que mejor se adapte a tus
+            necesidades.
+            <button class="action-btn">Ver más</button>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Servicios -->
+      <section id="services">
+        <h2>Servicios Disponibles</h2>
+        <p>
+          En GYMFIND, nos preocupamos por tu bienestar. Nuestros gimnasios
+          asociados cuentan con una variedad de servicios diseñados para
+          ayudarte a alcanzar tus metas de fitness.
+        </p>
+        <ul>
+          <li>
+            <strong>Entrenadores Personales:</strong> Disfruta de entrenamientos
+            personalizados con nuestros entrenadores profesionales que te
+            guiarán en tu viaje hacia el fitness.
+            <button class="action-btn">Ver más</button>
+          </li>
+          <li>
+            <strong>Clases Grupales:</strong> Participa en nuestras clases
+            grupales, que incluyen yoga, pilates, spinning, y más, para mantener
+            tu motivación alta.
+            <button class="action-btn">Ver más</button>
+          </li>
+          <li>
+            <strong>Acceso 24/7:</strong> Muchos de nuestros gimnasios ofrecen
+            acceso las 24 horas del día, para que puedas entrenar en cualquier
+            momento.
+            <button class="action-btn">Ver más</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; Aquiles Diaz 2025 - Todos los derechos reservados. Diseñado para
+        tu bienestar.
+      </p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
